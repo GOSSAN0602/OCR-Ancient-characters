@@ -1,7 +1,8 @@
 import warnings
 import torch
 from ignite.metrics.metric import Metric
-import skleran.metrics
+import sklearn.metrics
+import numpy as np
 
 
 class EpochMetric(Metric):

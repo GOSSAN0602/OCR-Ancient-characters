@@ -36,14 +36,14 @@ from torch.utils.data.dataloader import DataLoader
 
 
 # config
-debug=True
+debug=False
 submission=False
 batch_size=32
 device='cuda:0'
 out='.'
-image_size=64
+image_size=128
 arch='pretrained'
-model_name='se_resnext50_32x4d'
+model_name='resnext101_32x4d'
 
 datadir = Path('../input/bengaliai-cv19')
 featherdir = Path('../input/bengaliaicv19feather')

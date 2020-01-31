@@ -1,5 +1,8 @@
 import albumentations as A
 import numpy as np
+import sys
+sys.path.append('./')
+from libs.img_utils import *
 
 
 def add_gaussian_noise(x, sigma):

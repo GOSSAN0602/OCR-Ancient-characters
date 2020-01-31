@@ -3,6 +3,7 @@ from logging import getLogger
 import os
 from time import perf_counter
 import torch
+import pandas as pd
 
 from ignite.engine.engine import Engine, Events
 from ignite.metrics import Average
